@@ -371,6 +371,7 @@ int main()
     Node* glava = NULL;
     int modZadatak;
     glava = ReadLines(glava);
+    printf("Input how many different tasks there are:\n");
     scanf("%d", &modZadatak);
     printList(glava);
     Zadatak(glava, modZadatak);
